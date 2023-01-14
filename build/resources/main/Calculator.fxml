@@ -11,34 +11,45 @@
         <Button text="C"/>
         <Button text="+/-"/>
         <Button text="\%"/>
+        <Button text="1/x" styleClass="op"/>
+        <Button text="x!" styleClass="op"/>
+    </HBox>
+    <HBox>
+        <Button text="ln" styleClass="op"/>
         <Button text="log" styleClass="op"/>
+        <Button text="10^x" styleClass="op"/>
+        <Button text="x^y" styleClass="op"/>
+        <Button text="x^2" styleClass="op"/>
     </HBox>
     <HBox>
-        <Button text="x^y"/>
-        <Button text="x^2"/>
-        <Button text="e^x"/>
-        <Button text="/" styleClass="op"/>
+        <Button text="sin" styleClass="op"/>
+        <Button text="cos" styleClass="op"/>
+        <Button text="tan" styleClass="op"/>
+        <Button text="sin-1" styleClass="op"/>
+        <Button text="cos-1" styleClass="op"/>
     </HBox>
-
     <HBox>
-        <Button text="√"/>
-        <Button text="rad"/>
-        <Button text="Pi"/>
-        <Button text="*" styleClass="op"/>
+        <Button text="tan-1" styleClass="op"/>
+        <Button text="e^x" styleClass="op"/>
+        <Button text="y√x" styleClass="op"/>
+        <Button text="√" styleClass="op"/>
+        <Button text="rad" styleClass="op"/>
     </HBox>
 
     <HBox>
         <Button text="7"/>
         <Button text="8"/>
         <Button text="9"/>
-        <Button text="+" styleClass="op"/>
+        <Button text="e" />
+        <Button text="*" styleClass="op"/>
     </HBox>
 
     <HBox>
         <Button text="4"/>
         <Button text="5"/>
         <Button text="6"/>
-        <Button text="-" styleClass="op"/>
+        <Button text="Pi"/>
+        <Button text="/" styleClass="op"/>
     </HBox>
 
     <HBox>
@@ -46,11 +57,13 @@
         <Button text="2"/>
         <Button text="3"/>
         <Button text="."/>
+        <Button text="+" styleClass="op"/>
     </HBox>
 
     <HBox>
         <Button text="0" styleClass="zero"/>
         <Button text ="="/>
+        <Button text="-" styleClass="op"/>
     </HBox>
 
 </VBox>

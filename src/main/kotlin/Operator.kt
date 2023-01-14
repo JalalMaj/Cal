@@ -18,9 +18,12 @@ sealed class Operator(val x: Double) {
     class Div(x: Double): Operator(x) {
         override fun calculate(y: Double)= x / y
     }
-
     class Power(x: Double): Operator(x) {
-        override fun calculate(y: Double)= x.pow(y).toDouble()
+        override fun calculate(y: Double)= x.pow(y)
+    }
+
+    class SquareRoot(x: Double): Operator(x) {
+        override fun calculate(y: Double)= x.pow(1/y)
     }
 
 }
